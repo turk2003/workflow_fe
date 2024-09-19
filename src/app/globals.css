@@ -25,3 +25,12 @@ body {
     text-wrap: balance;
   }
 }
+.item-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  /* Flexible column widths */
+  grid-gap: 1rem;
+  /* Spacing between columns */
+  align-items: center;
+  /* Align vertically if desired */
+}
